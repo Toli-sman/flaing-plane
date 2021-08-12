@@ -1,12 +1,33 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #world {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	background: linear-gradient(#f1dba5, #f9c36d);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(#f1dba5, #f9c36d);
+}
+
+#wather {
+  position: relative;
+  left: 65%;
+  top: 10%;
+  width: 240px;
+}
+
+html {
+  font-family: "Avenir Next", Helevetica, sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 5 auto;
+}
+
+h1,
+h2 {
+  font-weight: 300;
 }
