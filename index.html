@@ -1,51 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/style.css">
     <title> Weather & Plane  </title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 
 <body>
-
-<script type="text/javascript">
-(function(w, d, n, s, t) {
-    w[n] = w[n] || [];
-    w[n].push(function() {
-        Ya.Direct.insertInto(84098, "yandex_ad", {
-            ad_format: "direct",
-            type: "240x400",
-            border_type: "block",
-            border_radius: true,
-            site_bg_color: "FFFFFF",
-            header_bg_color: "FEEAC7",
-            bg_color: "FFF9F0",
-            border_color: "FBE5C0",
-            title_color: "0000CC",
-            url_color: "006600",
-            text_color: "000000",
-            hover_color: "0066FF",
-            favicon: true,
-            no_sitelinks: false
-        });
-    });
-</script>
-
-</div>
     <div id="world">
         <div id="wather">
-            <h1>
-                <div id="temp"></div>
-                <div id="minutely"></div>
-            </h1>
-            <h2>
-                <div id="location"></div>
-            </h2>
+            <h1 id="temperature"></h1>
+            <h2 id="description"></h2>
+            <p id="location"></p>
         </div>
     </div>
-    <script src="wether.js"></script>
-    <script src='three.js'></script>
+    <script src="js/wether.js"></script>
+    <script src='js/three.js'></script>
     <script  src="js/index.js"></script>
 </body>
+
 </html>
