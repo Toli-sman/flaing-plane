@@ -22,7 +22,7 @@ function getWeather() {
       longitude +
       "&appid=" +
       apiKey +
-      "&units=imperial";
+      "&units=metric";
 
     fetch(url)
       .then(response => response.json())
