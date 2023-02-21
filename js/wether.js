@@ -4,7 +4,7 @@ function getWeather() {
   let location = document.getElementById("location");
 
   let api = "https://api.openweathermap.org/data/2.5/weather";
-  let apiKey = "d69274ff4e338d55750309d7fe0ae4f6";
+  let apiKey = "<YOUR API KEY>";
 
   location.innerHTML = "Locating...";
 
